@@ -1,0 +1,16 @@
+{
+  "name": "blockchain-twitter-giveaway",
+  "version": "1.0.0",
+  "description": "Fair and transparent Twitter Giveaways by using the Ethereum blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1",
+    "twitter": "^1.7.1"
+  }
+}
