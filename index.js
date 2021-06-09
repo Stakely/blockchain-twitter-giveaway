@@ -53,7 +53,7 @@ const getBlockHashByHeight = async (height) => {
       jsonrpc: '2.0',
       method: 'eth_getBlockByNumber',
       params: [
-        '0x' + height.toString(16),
+        '0x' + Number(height).toString(16),
         false
       ],
       id: 1
